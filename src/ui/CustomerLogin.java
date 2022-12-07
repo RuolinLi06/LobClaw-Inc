@@ -5,6 +5,7 @@
 package ui;
 
 import ui.Deliver.DeliverPanel;
+import ui.customer.CusMainMenu;
 
 /**
  *
@@ -98,6 +99,8 @@ public class CustomerLogin extends javax.swing.JDialog {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        CusMainMenu m = new CusMainMenu();
+        m.setVisible(true);
         DeliverPanel dp = new DeliverPanel();
         dp.DeliverPanel();
         et.dispose();
